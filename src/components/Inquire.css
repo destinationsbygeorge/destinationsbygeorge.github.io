@@ -1,0 +1,77 @@
+.inquire-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inquire-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.inquire-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.inquire-overlay {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.inquire-contact {
+  text-align: center;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.inquire-contact h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.inquire-email,
+.inquire-phone {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 2px;
+}
+
+.inquire-email:hover,
+.inquire-phone:hover {
+  opacity: 1;
+  border-bottom-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .inquire-contact {
+    padding: 36px 24px;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,166 @@
+.about-section {
+  padding: 80px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('/italo-delani.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.about-image-col {
+  flex: 0 0 340px;
+  position: sticky;
+  top: 40px;
+}
+
+.about-profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  object-fit: cover;
+}
+
+.about-content-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-role {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+
+.about-name {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.about-philosophy,
+.about-began,
+.about-education,
+.about-qualifications,
+.about-mission,
+.about-interests {
+  margin-bottom: 40px;
+}
+
+.about-philosophy h3,
+.about-began h3,
+.about-education h3,
+.about-qualifications h3,
+.about-mission h3,
+.about-interests h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.about-philosophy blockquote {
+  border-left: 3px solid rgba(255, 255, 255, 0.5);
+  padding-left: 20px;
+  margin: 0 0 20px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.about-philosophy blockquote cite {
+  display: block;
+  font-size: 0.85rem;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 10px;
+}
+
+.about-philosophy p,
+.about-began p,
+.about-education p,
+.about-interests p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 12px;
+}
+
+.about-philosophy p:last-child,
+.about-began p:last-child,
+.about-education p:last-child,
+.about-interests p:last-child {
+  margin-bottom: 0;
+}
+
+.qualification-block {
+  margin-bottom: 28px;
+}
+
+.qualification-block:last-child {
+  margin-bottom: 0;
+}
+
+.qualification-block h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.qualification-block p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 10px;
+}
+
+.qualification-block p:last-child {
+  margin-bottom: 0;
+}
+
+.mission-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 56px 0;
+  }
+
+  .about-inner {
+    flex-direction: column;
+    padding: 0 24px;
+    gap: 36px;
+  }
+
+  .about-image-col {
+    flex: none;
+    width: 90%;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .about-name {
+    margin-bottom: 28px;
+  }
+}

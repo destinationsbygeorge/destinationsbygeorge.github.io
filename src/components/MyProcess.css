@@ -1,0 +1,203 @@
+.my-process-section {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.my-process-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.my-process-title {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.my-process-intro {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.my-process-specialties {
+  margin: 48px 0;
+}
+
+.my-process-specialties h3,
+.my-process-how h3,
+.my-process-services h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.my-process-specialties ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.my-process-specialties ul li {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  padding-left: 20px;
+  position: relative;
+}
+
+.my-process-specialties ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: #999;
+}
+
+.my-process-how {
+  margin: 48px 0;
+}
+
+.my-process-how-intro {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.my-process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.my-process-step {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.step-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e0e0e0;
+  line-height: 1;
+  min-width: 56px;
+  flex-shrink: 0;
+}
+
+.step-content h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+.step-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.step-content p:last-child {
+  margin-bottom: 0;
+}
+
+.my-process-services {
+  margin-top: 48px;
+}
+
+.service-block {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.service-block:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.service-block h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+}
+
+.service-block h5 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #111;
+  margin: 20px 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.service-block p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.service-block p:last-child {
+  margin-bottom: 0;
+}
+
+.service-block ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.service-block ul li {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  padding-left: 20px;
+  position: relative;
+}
+
+.service-block ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .my-process-section {
+    padding: 56px 0;
+  }
+
+  .my-process-inner {
+    padding: 0 24px;
+  }
+
+  .my-process-step {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .step-number {
+    font-size: 1.8rem;
+  }
+}

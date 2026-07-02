@@ -1,0 +1,126 @@
+.advantages-section {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.advantages-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.advantages-title {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.advantages-subtitle {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 64px;
+}
+
+.advantage-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  aspect-ratio: 4 / 3;
+}
+
+.advantage-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.advantage-box:hover img {
+  transform: scale(1.05);
+}
+
+.advantage-box-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.advantage-box-overlay span {
+  color: #fff;
+  font-size: clamp(0.85rem, 1.5vw, 1.1rem);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.advantages-reasons-intro {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 48px;
+  text-align: center;
+  font-style: italic;
+}
+
+.advantages-reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.advantage-reason h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.advantage-reason p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.advantage-reason p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .advantages-section {
+    padding: 56px 0;
+  }
+
+  .advantages-inner {
+    padding: 0 24px;
+  }
+
+  .advantages-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .advantage-box {
+    aspect-ratio: 16 / 9;
+  }
+}
