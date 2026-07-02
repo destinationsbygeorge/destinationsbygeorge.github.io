@@ -55,7 +55,7 @@
 .advantage-box {
   position: relative;
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: 2px;
   aspect-ratio: 7 / 10;
   height: 900px;
   flex-shrink: 0;
