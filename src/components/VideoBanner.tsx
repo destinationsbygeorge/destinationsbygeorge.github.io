@@ -17,6 +17,7 @@ export default function VideoBanner() {
       </video>
 
       <div className="banner-text">
+        <img src="/vite.svg" alt="Logo" className="banner-logo" />
         <p>In best, in expertise</p>
       </div>
     </section>
