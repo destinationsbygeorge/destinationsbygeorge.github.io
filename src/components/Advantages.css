@@ -101,27 +101,70 @@
 .advantages-reasons {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.advantage-reason {
+  padding: 56px 40px;
+  border-radius: 4px;
+}
+
+.advantage-reason--odd {
+  background-color: #b8eaff;
+}
+
+.advantage-reason--even {
+  background-color: #384b94;
 }
 
 .advantage-reason h3 {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #111;
+  color: #fff;
   margin-bottom: 16px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
+.advantage-reason--odd h3 {
+  color: #111;
+}
+
 .advantage-reason p {
   font-size: 1rem;
   line-height: 1.8;
-  color: #444;
+  color: #e0e0e0;
   margin-bottom: 12px;
+}
+
+.advantage-reason--odd p {
+  color: #333;
 }
 
 .advantage-reason p:last-child {
   margin-bottom: 0;
+}
+
+@media (min-width: 769px) {
+  .advantage-reason {
+    max-width: 60vw;
+    padding: 64px 56px;
+    margin-bottom: 40px;
+  }
+
+  .advantage-reason--odd {
+    margin-right: auto;
+    margin-left: 10%;
+  }
+
+  .advantage-reason--even {
+    margin-left: auto;
+    margin-right: 10%;
+  }
 }
 
 @media (max-width: 768px) {

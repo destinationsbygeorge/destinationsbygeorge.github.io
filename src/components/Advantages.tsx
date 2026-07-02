@@ -1,12 +1,12 @@
 import './Advantages.css';
 
 const ADVANTAGE_BOXES = [
-  { label: 'VIP Status', image: '/advantages_images/vip_status.jpg' },
-  { label: 'Complimentary Breakfast for Two Daily', image: '/advantages_images/breakfast_for_two.jpg' },
-  { label: 'Room Upgrade on Arrival, When Available', image: '/advantages_images/hotel_upgrade.jpg' },
-  { label: 'Special Benefits Including Free Round of Golf, $200 Dining or Spa Credit', image: '/advantages_images/spa.jpg' },
-  { label: 'Complimentary Wi-Fi', image: '/advantages_images/wifi.jpg' },
-  { label: 'Early Check In and Late Check Out, When Available', image: '/advantages_images/reception.jpg' },
+  { label: 'VIP Status', image: '/advantages_images/vip_status.webp' },
+  { label: 'Complimentary Breakfast for Two Daily', image: '/advantages_images/breakfast_for_two.webp' },
+  { label: 'Room Upgrade on Arrival, When Available', image: '/advantages_images/hotel_upgrade.webp' },
+  { label: 'Special Benefits Including Free Round of Golf, $200 Dining or Spa Credit', image: '/advantages_images/spa.webp' },
+  { label: 'Complimentary Wi-Fi', image: '/advantages_images/wifi.webp' },
+  { label: 'Early Check In and Late Check Out, When Available', image: '/advantages_images/reception.webp' },
 ];
 
 const REASONS = [
@@ -89,8 +89,8 @@ export default function Advantages() {
         </p>
 
         <div className="advantages-reasons">
-          {REASONS.map((reason) => (
-            <div key={reason.title} className="advantage-reason">
+          {REASONS.map((reason, index) => (
+            <div key={reason.title} className={`advantage-reason ${index % 2 === 0 ? 'advantage-reason--odd' : 'advantage-reason--even'}`}>
               <h3>{reason.title}</h3>
               {reason.body.split('\n\n').map((para, i) => (
                 <p key={i}>{para}</p>
