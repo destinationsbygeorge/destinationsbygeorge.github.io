@@ -1,6 +1,7 @@
 .advantages-section {
-  padding: 80px 0;
+  padding-top: 80px;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 .advantages-inner {
@@ -10,7 +11,7 @@
 }
 
 .advantages-title {
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-size: clamp(3rem, 3vw, 2.4rem);
   font-weight: 700;
   color: #111;
   margin-bottom: 12px;
@@ -18,7 +19,7 @@
 }
 
 .advantages-subtitle {
-  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-size: clamp(2rem, 2vw, 1.3rem);
   font-weight: 400;
   color: #444;
   text-align: center;
@@ -90,22 +91,31 @@
 }
 
 .advantages-reasons-intro {
-  font-size: 1.1rem;
+  font-family: 'Ambroise', serif;
+  font-size: 2rem;
   font-weight: 500;
-  color: #222;
+  color: white;
+  padding-top: 48px;
   margin-bottom: 48px;
   text-align: center;
   font-style: italic;
+}
+
+.advantages-reasons-bg {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('/safari.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .advantages-reasons {
   display: flex;
   flex-direction: column;
   gap: 0;
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .advantage-reason {
@@ -114,15 +124,15 @@
 }
 
 .advantage-reason--odd {
-  background-color: #b8eaff;
+  background-color: rgba(184, 234, 255, 0.50);
 }
 
 .advantage-reason--even {
-  background-color: #384b94;
+  background-color: rgba(56, 75, 148, 0.50);
 }
 
 .advantage-reason h3 {
-  font-size: 1.25rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 16px;
@@ -131,18 +141,18 @@
 }
 
 .advantage-reason--odd h3 {
-  color: #111;
+  color: #fff;
 }
 
 .advantage-reason p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.8;
-  color: #e0e0e0;
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: 12px;
 }
 
 .advantage-reason--odd p {
-  color: #333;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .advantage-reason p:last-child {
@@ -153,7 +163,16 @@
   .advantage-reason {
     max-width: 60vw;
     padding: 64px 56px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .advantages-reasons :first-child {
+    margin-top: 60px;
+  }
+
+  .advantages-reasons :last-child {
+    margin-bottom: 60px;
   }
 
   .advantage-reason--odd {
@@ -169,7 +188,7 @@
 
 @media (max-width: 768px) {
   .advantages-section {
-    padding: 56px 0;
+    padding-top: 56px;
   }
 
   .advantages-inner {

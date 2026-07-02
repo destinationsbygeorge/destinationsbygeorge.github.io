@@ -83,20 +83,20 @@ export default function Advantages() {
             ))}
           </div>
         </div>
-
-        <p className="advantages-reasons-intro">
-          Here are 5 reasons why you need to book with Destinations by George now more than ever!
-        </p>
-
-        <div className="advantages-reasons">
-          {REASONS.map((reason, index) => (
-            <div key={reason.title} className={`advantage-reason ${index % 2 === 0 ? 'advantage-reason--odd' : 'advantage-reason--even'}`}>
-              <h3>{reason.title}</h3>
-              {reason.body.split('\n\n').map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
-            </div>
-          ))}
+        <div className="advantages-reasons-bg">
+          <p className="advantages-reasons-intro">
+            Here are 5 reasons why you need to book with Destinations by George now more than ever!
+          </p>
+          <div className="advantages-reasons">
+            {REASONS.map((reason, index) => (
+              <div key={reason.title} className={`advantage-reason ${index % 2 === 0 ? 'advantage-reason--odd' : 'advantage-reason--even'}`}>
+                <h3>{reason.title}</h3>
+                {reason.body.split('\n\n').map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

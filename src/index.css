@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'AbrilFatface';
+  src: url('/AbrilFatface-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ambroise', serif;
 }
