@@ -1,12 +1,12 @@
 import './Advantages.css';
 
 const ADVANTAGE_BOXES = [
-  { label: 'VIP Status', image: '/placeholder.webp' },
-  { label: 'Complimentary Breakfast for Two Daily', image: '/placeholder.webp' },
-  { label: 'Room Upgrade on Arrival, When Available', image: '/placeholder.webp' },
-  { label: 'Special Benefits Including Free Round of Golf, $200 Dining or Spa Credit', image: '/placeholder.webp' },
-  { label: 'Complimentary Wi-Fi', image: '/placeholder.webp' },
-  { label: 'Early Check In and Late Check Out, When Available', image: '/placeholder.webp' },
+  { label: 'VIP Status', image: '/advantages_images/vip_status.jpg' },
+  { label: 'Complimentary Breakfast for Two Daily', image: '/advantages_images/breakfast_for_two.jpg' },
+  { label: 'Room Upgrade on Arrival, When Available', image: '/advantages_images/hotel_upgrade.jpg' },
+  { label: 'Special Benefits Including Free Round of Golf, $200 Dining or Spa Credit', image: '/advantages_images/spa.jpg' },
+  { label: 'Complimentary Wi-Fi', image: '/advantages_images/wifi.jpg' },
+  { label: 'Early Check In and Late Check Out, When Available', image: '/advantages_images/reception.jpg' },
 ];
 
 const REASONS = [
@@ -71,15 +71,17 @@ export default function Advantages() {
         <h2 className="advantages-title">What am I offering?</h2>
         <h3 className="advantages-subtitle">Exclusive Privileges when Booking with Destinations by George:</h3>
 
-        <div className="advantages-grid">
-          {ADVANTAGE_BOXES.map((box) => (
-            <div key={box.label} className="advantage-box">
-              <img src={box.image} alt={box.label} />
-              <div className="advantage-box-overlay">
-                <span>{box.label}</span>
+        <div className="advantages-carousel-wrapper">
+          <div className="advantages-grid">
+            {[...ADVANTAGE_BOXES, ...ADVANTAGE_BOXES].map((box, i) => (
+              <div key={`${box.label}-${i}`} className="advantage-box">
+                <img src={box.image} alt={box.label} />
+                <div className="advantage-box-overlay">
+                  <span>{box.label}</span>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         <p className="advantages-reasons-intro">
