@@ -13,7 +13,7 @@ export default function VideoBanner() {
         loop
         playsInline
       >
-        <source src="/banner_trim.mp4" type="video/mp4" />
+        {/* <source src="/banner_trim.mp4" type="video/mp4" /> */}
       </video>
 
       <div className="banner-text">
