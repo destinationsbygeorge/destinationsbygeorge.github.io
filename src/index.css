@@ -35,6 +35,9 @@ h6 {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --royalBlue: rgb(37, 51, 109);
+  --primaryTextColor: #fabf00;
+  --secondaryTextColor: #fffaf1;
 }
 
 html {
@@ -42,8 +45,8 @@ html {
 }
 
 body {
-  background-color: rgb(56, 75, 148);
-  color: white;
+  background-color: var(--royalBlue);
+  color: var(--primaryTextColor);
   min-width: 320px;
 }
 

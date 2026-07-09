@@ -50,7 +50,7 @@
   top: calc(100% + 12px);
   left: 0;
   min-width: 200px;
-  background: rgb(56, 75, 148);
+  background: var(--royalBlue);
   border-radius: 6px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   opacity: 0;

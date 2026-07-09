@@ -1,6 +1,6 @@
 .advantages-section {
   padding-top: 80px;
-  background-color: rgb(56, 75, 148);
+  background-color: var(--royalBlue);
   overflow-x: hidden;
 }
 
@@ -21,7 +21,7 @@
 .advantages-subtitle {
   font-size: clamp(2rem, 2vw, 1.3rem);
   font-weight: 400;
-  color: #fffaf1;
+  color: var(--secondaryTextColor);
   text-align: center;
   margin-bottom: 48px;
 }
@@ -82,7 +82,8 @@
 
 .advantage-box-overlay span {
   color: #fff;
-  font-size: clamp(0.85rem, 1.5vw, 1.1rem);
+  font-family: 'Ambroise', serif;
+  font-size: 25px;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.05em;
@@ -128,7 +129,7 @@
 }
 
 .advantage-reason--even {
-  background-color: rgba(56, 75, 148, 0.50);
+  background-color: rgba(from var(--royalBlue) r g b / 0.50);
 }
 
 .advantage-reason h3 {
