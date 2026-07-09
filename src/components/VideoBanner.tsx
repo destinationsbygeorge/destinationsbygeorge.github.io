@@ -1,7 +1,11 @@
 import HamburgerMenu from './HamburgerMenu';
 import './VideoBanner.css';
 
-export default function VideoBanner() {
+interface VideoBannerProps {
+  onVideoLoaded: () => void;
+}
+
+export default function VideoBanner({ onVideoLoaded }: VideoBannerProps) {
   return (
     <section className="video-banner">
       <HamburgerMenu />
@@ -12,8 +16,9 @@ export default function VideoBanner() {
         muted
         loop
         playsInline
+        onCanPlay={onVideoLoaded}
       >
-        {/* <source src="/banner_trim.mp4" type="video/mp4" /> */}
+        <source src="/banner_trim.mp4" type="video/mp4" />
       </video>
 
       <div className="banner-text">
