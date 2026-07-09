@@ -12,11 +12,18 @@
   font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Ambroise', serif;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -35,8 +42,8 @@ html {
 }
 
 body {
-  background-color: #ffffff;
-  color: #111;
+  background-color: rgb(56, 75, 148);
+  color: white;
   min-width: 320px;
 }
 

@@ -31,10 +31,12 @@
 .hamburger-btn.open span:nth-child(1) {
   transform: translateY(9px) rotate(45deg);
 }
+
 .hamburger-btn.open span:nth-child(2) {
   opacity: 0;
   transform: scaleX(0);
 }
+
 .hamburger-btn.open span:nth-child(3) {
   transform: translateY(-9px) rotate(-45deg);
 }
@@ -48,7 +50,7 @@
   top: calc(100% + 12px);
   left: 0;
   min-width: 200px;
-  background: rgba(255, 255, 255, 0.97);
+  background: rgb(56, 75, 148);
   border-radius: 6px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   opacity: 0;
@@ -66,15 +68,17 @@
 .dropdown-menu li a {
   display: block;
   padding: 12px 20px;
-  color: #111;
+  color: white;
   font-size: 14px;
   font-family: inherit;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   text-decoration: none;
-  transition: background 0.15s ease;
+  transition: background 0.15s ease, text-shadow 0.15s ease;
 }
 
 .dropdown-menu li a:hover {
   background: rgba(0, 0, 0, 0.06);
+  color: white;
+  text-shadow: 0 0 8px rgba(255, 253, 240, 0.9), 0 0 16px rgba(255, 248, 220, 0.6), 0 2px 4px #faedc0;
 }

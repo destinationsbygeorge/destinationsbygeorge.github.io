@@ -4,7 +4,7 @@ export default function Inquire() {
   return (
     <section id="inquire" className="inquire-section">
       <div className="inquire-bg">
-        <img src="/placeholder.webp" alt="Contact background" />
+        <img src="/st_barths.webp" alt="Contact background" />
       </div>
       <div className="inquire-overlay">
         <div className="inquire-contact">

@@ -1,6 +1,6 @@
 .advantages-section {
   padding-top: 80px;
-  background-color: #fff;
+  background-color: rgb(56, 75, 148);
   overflow-x: hidden;
 }
 
@@ -13,7 +13,7 @@
 .advantages-title {
   font-size: clamp(3rem, 3vw, 2.4rem);
   font-weight: 700;
-  color: #111;
+  color: white;
   margin-bottom: 12px;
   text-align: center;
 }
@@ -21,7 +21,7 @@
 .advantages-subtitle {
   font-size: clamp(2rem, 2vw, 1.3rem);
   font-weight: 400;
-  color: #444;
+  color: #fffaf1;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -40,7 +40,7 @@
   flex-direction: row;
   gap: 16px;
   width: max-content;
-  animation: carousel-scroll 130s linear infinite;
+  animation: carousel-scroll 75s linear infinite;
 }
 
 @keyframes carousel-scroll {
