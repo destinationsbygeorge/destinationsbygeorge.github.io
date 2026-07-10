@@ -11,6 +11,7 @@
 }
 
 .advantages-title {
+  font-family: 'Garamond';
   font-size: clamp(3rem, 3vw, 2.4rem);
   font-weight: 700;
   color: white;

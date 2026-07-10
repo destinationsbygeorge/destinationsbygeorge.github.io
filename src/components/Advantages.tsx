@@ -85,7 +85,7 @@ export default function Advantages() {
         </div>
         <div className="advantages-reasons-bg">
           <p className="advantages-reasons-intro">
-            Here are 5 reasons why you need to book with Destinations by George now more than ever!
+            Here are 5 reasons why you need to book with Destinations by George!
           </p>
           <div className="advantages-reasons">
             {REASONS.map((reason, index) => (
