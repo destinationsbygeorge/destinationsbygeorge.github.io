@@ -1,0 +1,94 @@
+.process-how-section {
+  position: relative;
+  background-color: var(--royalBlue);
+  padding: 0 0 48px;
+}
+
+.process-how-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/my_process_images/eden_rock.webp');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.process-how-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px
+}
+
+.my-process-how {
+  margin: 48px 0;
+}
+
+.my-process-how-intro {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--secondaryTextColor);
+  margin-bottom: 40px;
+}
+
+.my-process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.my-process-step {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.step-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e0e0e0;
+  line-height: 1;
+  min-width: 56px;
+  flex-shrink: 0;
+}
+
+.step-content h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primaryTextColor);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+.step-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--secondaryTextColor);
+  margin-bottom: 10px;
+}
+
+.step-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .process-how-inner {
+    width: 80vw;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .my-process-step {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .step-number {
+    font-size: 1.8rem;
+  }
+}
