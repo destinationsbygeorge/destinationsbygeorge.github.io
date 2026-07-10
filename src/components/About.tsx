@@ -9,8 +9,10 @@ const QUALIFICATIONS = [
 My first big break as an actual travel agent was at a cruise only travel agency in Miami called South Beach Cruises a.k.a CruiseShopping.com. The owner used to always give his top selling agents free cruises, and the more we knew the cruise business the more we sold…product knowledge at the highest degree through personal experience on the ships. I was awarded two free cruises and I chose to go to Alaska both times. I used to sleep like a baby back in those days knowing I was part of such an exciting industry and getting paid for it.`,
   },
   {
-    title: 'Hotel Industry – Sol Melia Hotels and Resort Worldwide',
-    body: `At the time, it was one the largest hotel chains in the world, with over 400 hotels in 40 different countries. Only Marriott could be considered our competition.
+    title: 'Hotel Industry',
+    body: `Sol Melia Hotels and Resort Worldwide
+
+At the time, it was one the largest hotel chains in the world, with over 400 hotels in 40 different countries. Only Marriott could be considered our competition.
 
 Starting at the bottom and rising up through the ranks via hard work, there is no other way if you want the truth about it.
 
@@ -63,39 +65,10 @@ export default function About() {
           <div className="about-began">
             <h3>How It All Began</h3>
             <p>
-              MY Dad's best friend was from Buckinghamshire UK and they were as thick as thieves so my Mom
-              and Dad were always hob knobbing around Europe. My Mom get's back from some heavy partying in
-              Venice Italy with some really tall tales, so at 19 years old I said I really need to check out
-              this Europe place, booked a flight to Gatwick with no money and no place to stay… so lucky I
-              found the Earl's Court Youth hostel for 9 quid a night. I agreed to clean and maintain a
-              chef's home in Notting Hill for a side hustle and ended up staying for a while and spent all
-              my free time in the museums studying art history.
-            </p>
-            <p>
-              My first trip to Asia was at 22 years old and this is when my lifelong love affair with Tokyo
-              began. When I arrived to my hotel at around midnight, I noticed this gorgeous vending machine
-              lit up with what appeared to be neon light. When I looked inside the machine I laughed out
-              loud…a really good belly laugh! The vending machine was selling women's lingerie and I thought
-              to myself… man, I'm really going to like it here.
-            </p>
-            <p>
-              Moving to Paris to learn French was a mistake because nobody had time to help me with
-              anything, very fast paced and I did not speak one word of French. Several locals recommended
-              Lyon was the best place to learn French as the vibe was a bit more laid back and they spoke
-              French better. So I lived Lyon France with a French family during the evenings but had to
-              agree speaking English was forbidden. My days were spent studying French at a university
-              called Inflexyon where English was prohibited.
-            </p>
-            <p>
-              Learning Spanish was obligatory as I moved from Cape Cod Massachusetts to Miami at 20 years
-              old. I drove my love ride (1988 IROC Z Camaro) from my 200 sq. ft. Pleasure Palace apt. in
-              Miami Beach to Domino Park on Calle Ocho to play chess with all the elderly gentlemen from
-              Cuba and not a lick of English was spoken so it's safe to say I picked up a lot Spanish by
-              way of survival.
-            </p>
-            <p>
-              Fun Fact — my wife is from Spain and she knew I wanted to marry her from the moment we met,
-              so on our third date she took me to Madrid to meet her family!
+              I was bitten by the travel bug at 19 years old and have been seeking new adventures ever since.
+              My greatest memories were moving to London with nothing at 20 years old, then spending
+              extensive time in Tokyo, Japan. I moved to Lyon, France at 40 years old and lived with a French
+              family during the evening whilst studying French at university during the day.
             </p>
           </div>
 
@@ -103,22 +76,13 @@ export default function About() {
             <h3>Education</h3>
             <p>
               There was this interesting little travel school in Providence RI called Sawyer and I received
-              a degree in Travel and Tourism. Occasionally, travel agents used to hand write paper airline
-              tickets back in those days but they were super difficult and time consuming to finish as you
-              could not make any mistakes. Machine printed ticket stock needed to be produced by utilizing
-              the Sabre language system that was more difficult than learning Greek. I met the loveliest
-              girl at this school, she was studying to be a stewardess a.k.a. Sky Bunny but we are not
-              allowed to use those terms anymore so I had to move towards the vocabulary of flight attendant.
+              a degree in Travel and Tourism.
             </p>
             <p>
-              Upon graduation I got a job as a ticketing agent at Colpitt's World Travel in Dedham MA. I
-              was in charge of printing all the airline tickets, putting them all together, placing them in
-              these beautiful ticket jackets (Lufthansa had the best) and organizing them to give to the
-              delivery staff. The delivery drivers would drive the precious cargo (paper airline tickets
-              were worth their weight in gold back then) to all the clients. The airline ticket stock was
-              kept in a vault in the bowels of the basement… the vault was so large and thick that I could
-              scarcely believe it…about 7 feet high by 4 feet wide. Only the boss had the combination to
-              the vault.
+              Upon graduation I got a job as a ticketing agent at Colpitt's World Travel in Dedham MA. I was
+              in charge of printing all the airline tickets, putting them all together, placing them in these
+              beautiful ticket jackets (Lufthansa had the best) and then the delivery driver team would hand
+              deliver these paper tickets to various large corporations in and around Boston.
             </p>
           </div>
 
@@ -145,7 +109,7 @@ export default function About() {
               Growing up exposed to various cultures has accentuated my love for the travel & tourism
               industry. For leisure I enjoy physical activities such as tennis, disco dancing and break
               dancing, cooking, golf, snorkeling, skiing, kayaking and martial arts. For passive activities
-              I enjoy listening to the 70's and 80's music, reading history, poetry and classic novels,
+              I enjoy listening to the 70's and 80' music, reading history, poetry and classic novels,
               studying Spanish, French and Italian, food & wine, and playing chess.
             </p>
           </div>
