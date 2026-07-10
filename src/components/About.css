@@ -50,6 +50,12 @@
   margin-bottom: 40px;
 }
 
+.about-full-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
 .about-philosophy,
 .about-began,
 .about-education,
@@ -57,6 +63,10 @@
 .about-mission,
 .about-interests {
   margin-bottom: 40px;
+}
+
+.about-qualifications {
+  margin-top: 20px;
 }
 
 .about-philosophy h3,
@@ -162,5 +172,9 @@
 
   .about-name {
     margin-bottom: 28px;
+  }
+
+  .about-full-width {
+    padding: 0 24px;
   }
 }

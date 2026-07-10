@@ -85,34 +85,36 @@ export default function About() {
               deliver these paper tickets to various large corporations in and around Boston.
             </p>
           </div>
+        </div>
+      </div>
 
-          <div className="about-qualifications">
-            <h3>Professional Qualifications</h3>
-            {QUALIFICATIONS.map((q) => (
-              <div key={q.title} className="qualification-block">
-                <h4>{q.title}</h4>
-                {q.body.split('\n\n').map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
-              </div>
-            ))}
-          </div>
+      <div className="about-full-width">
+        <div className="about-qualifications">
+          <h3>Professional Qualifications</h3>
+          {QUALIFICATIONS.map((q) => (
+            <div key={q.title} className="qualification-block">
+              <h4>{q.title}</h4>
+              {q.body.split('\n\n').map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
+          ))}
+        </div>
 
-          <div className="about-mission">
-            <h3>My Mission Statement</h3>
-            <p className="mission-text">Hard Work!</p>
-          </div>
+        <div className="about-mission">
+          <h3>My Mission Statement</h3>
+          <p className="mission-text">Hard Work!</p>
+        </div>
 
-          <div className="about-interests">
-            <h3>Personal Interests</h3>
-            <p>
-              Growing up exposed to various cultures has accentuated my love for the travel & tourism
-              industry. For leisure I enjoy physical activities such as tennis, disco dancing and break
-              dancing, cooking, golf, snorkeling, skiing, kayaking and martial arts. For passive activities
-              I enjoy listening to the 70's and 80' music, reading history, poetry and classic novels,
-              studying Spanish, French and Italian, food & wine, and playing chess.
-            </p>
-          </div>
+        <div className="about-interests">
+          <h3>Personal Interests</h3>
+          <p>
+            Growing up exposed to various cultures has accentuated my love for the travel & tourism
+            industry. For leisure I enjoy physical activities such as tennis, disco dancing and break
+            dancing, cooking, golf, snorkeling, skiing, kayaking and martial arts. For passive activities
+            I enjoy listening to the 70's and 80' music, reading history, poetry and classic novels,
+            studying Spanish, French and Italian, food & wine, and playing chess.
+          </p>
         </div>
       </div>
     </section>
