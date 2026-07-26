@@ -69,13 +69,7 @@
   margin-top: 20px;
 }
 
-.about-philosophy h3,
-.about-began h3,
-.about-education h3,
-.about-qualifications h3,
-.about-mission h3,
-.about-interests h3 {
-  font-size: 1.1rem;
+.section-label {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -103,7 +97,6 @@
 .about-began p,
 .about-education p,
 .about-interests p {
-  font-size: 1rem;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.85);
   margin-bottom: 12px;
@@ -125,7 +118,6 @@
 }
 
 .qualification-block h4 {
-  font-size: 1rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 12px;
@@ -134,7 +126,6 @@
 }
 
 .qualification-block p {
-  font-size: 1rem;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.85);
   margin-bottom: 10px;

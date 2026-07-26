@@ -37,7 +37,7 @@ export default function About() {
           <h2 className="about-name">Meet George</h2>
 
           <div className="about-philosophy">
-            <h3>My Philosophy</h3>
+            <h3 className="section-label">My Philosophy</h3>
             <blockquote>
               "Life is either a daring adventure or nothing. Security does not exist in nature, nor do the
               children of men as a whole experience it. Avoiding danger is no safer in the long run than
@@ -63,7 +63,7 @@ export default function About() {
           </div>
 
           <div className="about-began">
-            <h3>How It All Began</h3>
+            <h3 className="section-label">How It All Began</h3>
             <p>
               I was bitten by the travel bug at 19 years old and have been seeking new adventures ever since.
               My greatest memories were moving to London with nothing at 20 years old, then spending
@@ -73,7 +73,7 @@ export default function About() {
           </div>
 
           <div className="about-education">
-            <h3>Education</h3>
+            <h3 className="section-label">Education</h3>
             <p>
               There was this interesting little travel school in Providence RI called Sawyer and I received
               a degree in Travel and Tourism.
@@ -90,7 +90,7 @@ export default function About() {
 
       <div className="about-full-width">
         <div className="about-qualifications">
-          <h3>Professional Qualifications</h3>
+          <h3 className="section-label">Professional Qualifications</h3>
           {QUALIFICATIONS.map((q) => (
             <div key={q.title} className="qualification-block">
               <h4>{q.title}</h4>
@@ -102,12 +102,12 @@ export default function About() {
         </div>
 
         <div className="about-mission">
-          <h3>My Mission Statement</h3>
+          <h3 className="section-label">My Mission Statement</h3>
           <p className="mission-text">Hard Work!</p>
         </div>
 
         <div className="about-interests">
-          <h3>Personal Interests</h3>
+          <h3 className="section-label">Personal Interests</h3>
           <p>
             Growing up exposed to various cultures has accentuated my love for the travel & tourism
             industry. For leisure I enjoy physical activities such as tennis, disco dancing and break

@@ -60,7 +60,6 @@
 }
 
 .inquire-contact h2 {
-  font-size: clamp(1.8rem, 4vw, 3rem);
   font-weight: 300;
   color: #fff;
   letter-spacing: 0.08em;

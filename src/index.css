@@ -24,6 +24,30 @@ h6 {
   font-family: 'Ambroise', serif;
 }
 
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+h4 {
+  font-size: var(--fs-h4);
+}
+
+h5 {
+  font-size: var(--fs-h5);
+}
+
+p {
+  font-size: var(--fs-body);
+}
+
+.section-label {
+  font-size: 1.1rem;
+}
+
 *,
 *::before,
 *::after {
@@ -41,6 +65,11 @@ h6 {
   --royalBlue: rgb(0, 17, 113);
   --primaryTextColor: #fabf00;
   --secondaryTextColor: #fffaf1;
+  --fs-h2: clamp(1.8rem, 4vw, 3rem);
+  --fs-h3: clamp(1.6rem, 1.8rem, 1.8rem);
+  --fs-h4: clamp(1.1rem, 1.4rem, 1.4rem);
+  --fs-h5: clamp(1.1rem, 1.4rem, 1.4rem);
+  --fs-body: clamp(1.1rem, 1.4rem, 1.4rem);
 }
 
 html {
