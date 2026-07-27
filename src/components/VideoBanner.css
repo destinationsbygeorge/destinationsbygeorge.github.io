@@ -73,6 +73,12 @@
   filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.9));
 }
 
+@media (max-width:1920px) {
+  .banner-logo {
+    max-width: 600px;
+  }
+}
+
 @media (max-width: 768px) {
   .banner-logo {
     width: 80%;
