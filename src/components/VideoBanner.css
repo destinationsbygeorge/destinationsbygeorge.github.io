@@ -59,7 +59,7 @@
   right: 0;
   text-align: center;
   /* Desktop: bottom quarter of screen */
-  bottom: 14%;
+  bottom: 8%;
   padding: 0 24px;
   pointer-events: none;
   z-index: 2;
@@ -76,6 +76,10 @@
 @media (max-width:1920px) {
   .banner-logo {
     max-width: 600px;
+  }
+
+  .banner-text {
+    bottom: 2%;
   }
 }
 
