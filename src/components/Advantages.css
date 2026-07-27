@@ -41,7 +41,7 @@
   flex-direction: row;
   gap: 16px;
   width: max-content;
-  animation: carousel-scroll 75s linear infinite;
+  animation: carousel-scroll 30s linear infinite;
 }
 
 @keyframes carousel-scroll {
@@ -159,6 +159,10 @@
   margin-bottom: 0;
 }
 
+.advantage-box-overlay span {
+  font-size: 60px;
+}
+
 @media (min-width: 769px) {
   .advantage-reason {
     max-width: 60vw;
@@ -184,9 +188,15 @@
     margin-left: auto;
     margin-right: 10%;
   }
+}
+
+@media (max-width: 1920px) {
+  .advantage-box {
+    height: 800px;
+  }
 
   .advantage-box-overlay span {
-    font-size: 60px;
+    font-size: 52px;
   }
 }
 
