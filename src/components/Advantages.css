@@ -94,7 +94,7 @@
 
 .advantages-reasons-intro {
   font-family: 'Ambroise', serif;
-  font-size: 2rem;
+  font-size: clamp(2rem, 2.4rem, 2.5rem);
   font-weight: 500;
   color: white;
   padding-top: 48px;
@@ -126,7 +126,7 @@
 }
 
 .advantage-reason--odd {
-  background-color: rgba(184, 234, 255, 0.50);
+  background-color: rgba(from var(--lightBlue) r g b / 0.50);
 }
 
 .advantage-reason--even {
@@ -201,6 +201,13 @@
 }
 
 @media (max-width: 768px) {
+
+  .advantages-reasons-intro {
+    font-size: clamp(2rem, 2.4rem, 2.5rem);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .advantages-section {
     padding-top: 56px;
   }

@@ -34,7 +34,7 @@ export default function About() {
 
         <div className="about-content-col">
           <p className="about-role">Founder and Luxury Travel Advisor</p>
-          <h2 className="about-name">Meet George</h2>
+          <h2 className="about-name">MEET GEORGE</h2>
 
           <div className="about-philosophy">
             <h3 className="section-label">My Philosophy</h3>

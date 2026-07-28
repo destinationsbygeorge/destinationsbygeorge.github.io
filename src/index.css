@@ -15,6 +15,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Modernline';
+  src: url('/modernline.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1,
 h2,
 h3,
@@ -63,6 +70,7 @@ p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --royalBlue: rgb(0, 17, 113);
+  --lightBlue: rgb(184, 234, 255);
   --primaryTextColor: #fabf00;
   --secondaryTextColor: #fffaf1;
   --fs-h2: clamp(1.8rem, 4vw, 3rem);

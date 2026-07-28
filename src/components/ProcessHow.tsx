@@ -29,7 +29,7 @@ Approximately two months prior to travel, we put the finishing touches on your i
 
 Now is the time to soak in every precious moment. You have been working hard, you deserve this.
 
-PLEASE DO NOT DISTURB – If you wish to be off the grid, we know exactly what this feels like…pure bliss. We will not reach out to you to see if there is anything else we can do to make your voyage any smoother.
+PLEASE DO NOT DISTURB - If you wish to be off the grid, we know exactly what this feels like… pure bliss. We will not reach out to you to see if there is anything else we can do to make your voyage any smoother.
 
 When you return, you can share any feedback, discoveries, and stories.`,
   },
@@ -40,7 +40,7 @@ export default function ProcessHow() {
     <section className="process-how-section">
       <div className="process-how-inner">
         <div className="my-process-how">
-          <h3>How it works.</h3>
+          <h3>HOW IT WORKS</h3>
           <p className="my-process-how-intro">
             In an era saturated with automated responses and anonymity, Destinations By George designs each
             trip by establishing a personal connection with our clients.
