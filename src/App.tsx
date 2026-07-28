@@ -5,6 +5,7 @@ import ProcessHow from './components/ProcessHow';
 import ProcessService from './components/ProcessService';
 import About from './components/About';
 import Inquire from './components/Inquire';
+import Footer from './components/Footer';
 import './App.css';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <ProcessService />
         <About />
         <Inquire />
+        <Footer />
       </div>
     </>
   );
