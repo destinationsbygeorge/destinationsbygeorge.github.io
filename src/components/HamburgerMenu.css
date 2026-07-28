@@ -52,7 +52,7 @@
   top: calc(100% + 12px);
   left: 0;
   min-width: 433px;
-  background: rgba(from var(--lightBlue) r g b / 0.8);
+
   border-radius: 6px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   opacity: 0;
@@ -78,6 +78,7 @@
   text-transform: uppercase;
   text-decoration: none;
   transition: background 0.15s ease, text-shadow 0.15s ease;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 .dropdown-menu li {
@@ -155,6 +156,15 @@
 }
 
 @media (max-width: 768px) {
+
+  /* Dropdown */
+  .dropdown-menu {
+    background: var(--lightBlue);
+  }
+
+  .dropdown-menu li a:hover {
+    text-shadow: none;
+  }
 
   .hamburger-btn {
     width: 28px;
