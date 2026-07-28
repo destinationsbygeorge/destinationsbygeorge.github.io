@@ -88,6 +88,7 @@ export default function Inquire() {
               +1-305-878-0007
             </a>
           </div>
+          <p className="inquire-arc">Florida Sellers of Travel ARC# 17873</p>
         </div>
       </div>
     </section>
