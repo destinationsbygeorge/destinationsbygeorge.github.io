@@ -11,3 +11,7 @@
   margin: 0;
   font-size: 10px;
 }
+
+.footer p a {
+  color: white !important;
+}
