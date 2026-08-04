@@ -52,7 +52,7 @@
   top: calc(100% + 12px);
   left: 0;
   min-width: 433px;
-  background: rgba(from var(--lightBlue) r g b / 0.8);
+  background: rgba(from var(--royalBlue) r g b / 0.8);
   border-radius: 6px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   opacity: 0;
