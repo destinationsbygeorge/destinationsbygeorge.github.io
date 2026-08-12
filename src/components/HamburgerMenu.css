@@ -157,11 +157,6 @@
 
 @media (max-width: 768px) {
 
-  /* Dropdown */
-  .dropdown-menu {
-    background: var(--lightBlue);
-  }
-
   .dropdown-menu li a:hover {
     text-shadow: none;
   }
